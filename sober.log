@@ -1,11 +1,11 @@
-lifedestroyed@ubuntu:~$ flatpak update
+<pre><font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>$ flatpak update
 Looking for updates…
 
 Nothing to do.
 flatpak override --user --device=all org.vinegarhq.Sober
 
-^Clifedestroyed@ubuntu:~flatpak override --user --device=all org.vinegarhq.Sober
-lifedestroyed@ubuntu:~$ flatpak run org.vinegarhq.Sober
+^C<font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>flatpak override --user --device=all org.vinegarhq.Sober
+<font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>$ flatpak run org.vinegarhq.Sober
 sober: /usr/lib/x86_64-linux-gnu/libcurl.so.4: no version information available (required by sober)
 /proc/self/exe: /usr/lib/x86_64-linux-gnu/libcurl.so.4: no version information available (required by /proc/self/exe)
 info: app: lifecycle: app_start delta=2.9999995604157448e-05ms
@@ -16,14 +16,14 @@ info: app: os release:
 info: app: host os release: Ubuntu
 info: app: desktop: ubuntu:GNOME (on wayland)
 info: app: lifecycle: update_flags_from_remote_manifest delta=0.035527999978512526ms
-info: state: using manifest object: {"app_settings":{"FFlagRenderUseTextureManager224":false},"r1":1,"u":1}
+info: state: using manifest object: {&quot;app_settings&quot;:{&quot;FFlagRenderUseTextureManager224&quot;:false},&quot;r1&quot;:1,&quot;u&quot;:1}
 info: window: using C.UTF-8 locale
 info: app: lifecycle: runtime_handler delta=3080.263520000037ms
 info: app: lifecycle: fs_init delta=0.031198999960906804ms
-I/O warning : failed to load "/home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/appData/GlobalBasicSettings_13.xml": No such file or directory
+I/O warning : failed to load &quot;/home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/appData/GlobalBasicSettings_13.xml&quot;: No such file or directory
 WARN: state: could not parse file /home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/appData/GlobalBasicSettings_13.xml
 info: app: lifecycle: check_security delta=637.3613609999884ms
-info: app$json: {"product_name":"X870 GAMING WIFI6","product_version":"-CF-WCP","type":"device_product_info"}
+info: app$json: {&quot;product_name&quot;:&quot;X870 GAMING WIFI6&quot;,&quot;product_version&quot;:&quot;-CF-WCP&quot;,&quot;type&quot;:&quot;device_product_info&quot;}
 info: app: lifecycle: core_runtime delta=0.07805600005667657ms
 info: app: lifecycle: app_core delta=138.79959099995904ms
 info: app: lifecycle: devices_init delta=1357.2783099999651ms
@@ -31,7 +31,7 @@ info: app: lifecycle: global_window_init delta=0.00822000007610768ms
 info: app: lifecycle: gamemode_init delta=993.7414369999897ms
 info: app: lifecycle: interface_init delta=40.65971699997317ms
 debug: JNIMain: TelemetryProtocol::setProcessTimeOverride: 21631
-info: device_params_impls$json: {"device_memory_class_mib":4096,"device_memory_mib":31153,"is_low_ram_device":false,"type":"memory_params"}
+info: device_params_impls$json: {&quot;device_memory_class_mib&quot;:4096,&quot;device_memory_mib&quot;:31153,&quot;is_low_ram_device&quot;:false,&quot;type&quot;:&quot;memory_params&quot;}
 info: rbx.JNIRobloxSettings: Setting default app policy file: content/guac/defaultConfigs/GuacDefaultPolicy-GlobalDist.json
 info: state: Applying remote app settings override: FFlagRenderUseTextureManager224=false
 info: Roblox: 2026-03-18T14:24:56.410Z,16.410501,110a0080,6 [FLog::AndroidGLView] nativeInitClientSettings
@@ -112,7 +112,7 @@ info: Roblox: 2026-03-18T14:24:56.442Z,16.442707,bcfcc6c0,6 [FLog::DataModelPatc
 info: Roblox: 2026-03-18T14:24:56.442Z,16.442728,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=118593852151835, assetVersion=6172, maxAppVersion=710, localAssetURI=rbxasset://models/UniversalApp/UniversalApp.rbxm
 info: Roblox: 2026-03-18T14:24:56.442Z,16.442747,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: config: 118593852151835.6284
 info: Roblox: 2026-03-18T14:24:56.442Z,16.442764,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: numAttemptsRemaining: 1
-info: Roblox: 2026-03-18T14:24:56.442Z,16.442776,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: contentId=https://www.roblox.com/asset/?id=118593852151835&version=6284
+info: Roblox: 2026-03-18T14:24:56.442Z,16.442776,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: contentId=https://www.roblox.com/asset/?id=118593852151835&amp;version=6284
 info: Roblox: 2026-03-18T14:24:56.442Z,16.442799,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: search downloaded patch cache.
 info: Roblox: 2026-03-18T14:24:56.442Z,16.442818,bcfcc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: get patch from local backup cache for Model: 118593852151835.6284
 info: Roblox: 2026-03-18T14:24:56.442Z,16.442850,bcfcc6c0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
@@ -135,13 +135,13 @@ info: Roblox: 2026-03-18T14:24:56.652Z,16.652195,db9006c0,6 [FLog::DataModelPatc
 info: Roblox: 2026-03-18T14:24:56.652Z,16.652216,db9006c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=16639814581, assetVersion=7705, maxAppVersion=710, localAssetURI=
 info: Roblox: 2026-03-18T14:24:56.824Z,16.824429,1d8cc6c0,12 [DFLog::HttpTraceError] CURLINFO_OS_ERRNO: 111 Connection refused
 info: Roblox: 2026-03-18T14:24:56.824Z,16.824800,1d8cc6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Failed to connect to localhost port 5051 after 0 ms: Could not connect to server
-info: Roblox: 2026-03-18T14:24:56.825Z,16.825075,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7c247a6436b0) time:0.9ms (net:0.9ms timeInRetryQueue:0.0ms) error:3 message:HttpError: ConnectFail url:{ "http://localhost:5051" } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:24:56.825Z,16.825075,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7c247a6436b0) time:0.9ms (net:0.9ms timeInRetryQueue:0.0ms) error:3 message:HttpError: ConnectFail url:{ &quot;http://localhost:5051&quot; } ip: external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:24:56.825Z,16.825157,ffff6c0,6 [DFLog::WebSocketTraceError] ws: 0 url: http://localhost:5051 error: HttpError: ConnectFail
-info: app_interface$json: {"place_id":"0","type":"game_loaded"}
+info: app_interface$json: {&quot;place_id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;game_loaded&quot;}
 info: Roblox: 2026-03-18T14:24:56.833Z,16.833990,db9006c0,6 [FLog::Warning] Warning: Unable to fetch completed survey ids from app storage  
 info: Roblox: 2026-03-18T14:24:56.850Z,16.850676,349206c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: Roblox: 2026-03-18T14:24:56.877Z,16.877811,349206c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
-info: app_interface$json: {"type":"will_handle_app_startup"}
+info: app_interface$json: {&quot;type&quot;:&quot;will_handle_app_startup&quot;}
 debug: rbx.AppBridgeV2: nativeAppBridgeV2StartApp:
 debug: rbx.AppBridgeV2: nativeAppBridgeV2StartApp: Same native window 0x7c250e934800. No need to do anything!
 info: Roblox: 2026-03-18T14:24:56.878Z,16.878727,bcfcc6c0,6 [FLog::SingleSurfaceApp] startLuaApp: (stage:InitializedLuaApp).
@@ -201,7 +201,7 @@ info: Roblox: 2026-03-18T14:24:57.012Z,17.012056,bcfcc6c0,6 [FLog::SingleSurface
 info: Roblox: 2026-03-18T14:24:57.012Z,17.012121,bcfcc6c0,6 [FLog::SingleSurfaceApp] userDidLogin
 info: Roblox: 2026-03-18T14:24:57.012Z,17.012135,bcfcc6c0,6 [FLog::SingleSurfaceApp] applyLocale
 debug: rbx.appshell.report: NRI.setAppSuspended(false)
-info: app_interface$json: {"type":"did_handle_app_startup"}
+info: app_interface$json: {&quot;type&quot;:&quot;did_handle_app_startup&quot;}
 info: Roblox: 2026-03-18T14:24:57.033Z,17.033348,db9006c0,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
 info: Roblox: 2026-03-18T14:24:57.033Z,17.033400,bcfcc6c0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
 info: Roblox: 2026-03-18T14:24:57.035Z,17.035492,bcfcc6c0,6 [FLog::Graphics] Vulkan: resizing window framebuffer to 1854x1011
@@ -211,14 +211,14 @@ info: Roblox: 2026-03-18T14:24:57.038Z,17.038734,bcfcc6c0,6 [FLog::Graphics] Fut
 info: Roblox: 2026-03-18T14:24:57.040Z,17.040869,bcfcc6c0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
 info: Roblox: 2026-03-18T14:24:57.041Z,17.041275,bcfcc6c0,6 [FLog::Graphics] Terrain TextureAtlas 2048x2048, tileCount: 6x6, tileSize: 256x256, border: 32, mip: 4
 info: Roblox: 2026-03-18T14:24:57.043Z,17.043236,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
-info: Roblox: 2026-03-18T14:24:57.131Z,17.131845,349206c0,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular" load failed: Error parsing batch thumbnail request, invalid format
+info: Roblox: 2026-03-18T14:24:57.131Z,17.131845,349206c0,6 [FLog::Error] Asset (Image) &quot;rbxthumb://type=AvatarHeadShot&amp;id=&amp;w=48&amp;h=48&amp;filters=circular&quot; load failed: Error parsing batch thumbnail request, invalid format
 info: Roblox: 2026-03-18T14:24:57.591Z,17.591465,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/attribution/v1/events/post-authentication`
 info: Roblox: 2026-03-18T14:24:57.591Z,17.591518,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`nil`
 info: Roblox: 2026-03-18T14:24:57.591Z,17.591543,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`nil`
-info: Roblox: 2026-03-18T14:24:57.901Z,17.901972,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#8 0x7c247713f6b0) time:1035.0ms (net:1035.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ "https://apis.roblox.com/user-heartbeats-api/pulse" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:24:57.901Z,17.901972,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#8 0x7c247713f6b0) time:1035.0ms (net:1035.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ &quot;https://apis.roblox.com/user-heartbeats-api/pulse&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:24:57.908Z,17.908123,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/user-heartbeats-api/pulse`
 info: Roblox: 2026-03-18T14:24:57.908Z,17.908171,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`403`
-info: Roblox: 2026-03-18T14:24:57.908Z,17.908205,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{"sessionId":"68c5889f-2e80-418d-92d3-67d87a57cb2e","status":403,"message":"Unauthorized."}`
+info: Roblox: 2026-03-18T14:24:57.908Z,17.908205,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;sessionId&quot;:&quot;68c5889f-2e80-418d-92d3-67d87a57cb2e&quot;,&quot;status&quot;:403,&quot;message&quot;:&quot;Unauthorized.&quot;}`
 info: Roblox: 2026-03-18T14:24:57.909Z,17.909475,db9006c0,6 [FLog::Warning] Warning: Unhandled Promise rejection:
 
 table: 0xfb6307abf510b294
@@ -227,15 +227,15 @@ CoreGui.RobloxGui.Modules.LuaApp.Http.wrapRequestWithMiddleware:40 function make
 CoreGui.RobloxGui.Modules.LuaApp.Http.Requests.UserHeartbeats.PostUserHeartbeatsPulse:34
 CoreGui.RobloxGui.Modules.LuaApp.Components.Session.UserHeartbeatsManager:129
 
-info: Roblox: 2026-03-18T14:24:58.203Z,18.203537,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7c2470970cb0) time:1357.6ms (net:1357.6ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ "https://apis.roblox.com/user-heartbeats-api/action-report" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
-info: Roblox: 2026-03-18T14:24:58.203Z,18.203764,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7c24709730b0) time:1352.6ms (net:1352.6ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ "https://apis.roblox.com/platform-chat-api/v1/get-conversation-metadata" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
-info: Roblox: 2026-03-18T14:24:58.203Z,18.203897,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#12 0x7c24771390b0) time:1278.8ms (net:1278.7ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ "https://users.roblox.com/v1/users/authenticated/app-launch-info" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:24:58.203Z,18.203537,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7c2470970cb0) time:1357.6ms (net:1357.6ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ &quot;https://apis.roblox.com/user-heartbeats-api/action-report&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:24:58.203Z,18.203764,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7c24709730b0) time:1352.6ms (net:1352.6ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ &quot;https://apis.roblox.com/platform-chat-api/v1/get-conversation-metadata&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:24:58.203Z,18.203897,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#12 0x7c24771390b0) time:1278.8ms (net:1278.7ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ &quot;https://users.roblox.com/v1/users/authenticated/app-launch-info&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:24:58.208Z,18.208120,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/user-heartbeats-api/action-report`
 info: Roblox: 2026-03-18T14:24:58.208Z,18.208181,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`403`
-info: Roblox: 2026-03-18T14:24:58.208Z,18.208216,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{"sessionId":"68c5889f-2e80-418d-92d3-67d87a57cb2e","status":403,"message":"Unauthorized."}`
+info: Roblox: 2026-03-18T14:24:58.208Z,18.208216,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;sessionId&quot;:&quot;68c5889f-2e80-418d-92d3-67d87a57cb2e&quot;,&quot;status&quot;:403,&quot;message&quot;:&quot;Unauthorized.&quot;}`
 info: Roblox: 2026-03-18T14:24:58.209Z,18.209332,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://users.roblox.com/v1/users/authenticated/app-launch-info`
 info: Roblox: 2026-03-18T14:24:58.209Z,18.209375,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`401`
-info: Roblox: 2026-03-18T14:24:58.209Z,18.209400,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{"errors":[{"code":0,"message":"Authentication cookie is empty"}]}
+info: Roblox: 2026-03-18T14:24:58.209Z,18.209400,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;errors&quot;:[{&quot;code&quot;:0,&quot;message&quot;:&quot;Authentication cookie is empty&quot;}]}
 `
 info: Roblox: 2026-03-18T14:24:58.209Z,18.209566,db9006c0,6 [FLog::Warning] Warning: Unhandled Promise rejection:
 
@@ -257,7 +257,7 @@ info: Roblox: 2026-03-18T14:24:58.921Z,18.921177,db9006c0,6,Info [DFLog::FlagCac
 info: Roblox: 2026-03-18T14:24:58.921Z,18.921412,db9006c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Successfully wrote 1082480 bytes to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat, time: 0.239408999998858ms
 info: Roblox: 2026-03-18T14:24:58.921Z,18.921539,349206c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry time 360, written to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/tombstone.dat
 info: rbx.AppBridgeV2: nativeAppBridgeAppStart: StartupController finished starting: stage = 2, BTID = 0, upgradeStatus = 2.
-info: Roblox: 2026-03-18T14:25:04.141Z,24.141226,349206c0,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=-1&w=48&h=48&filters=circular" load failed: The requested Ids are invalid, of an invalid type or missing.
+info: Roblox: 2026-03-18T14:25:04.141Z,24.141226,349206c0,6 [FLog::Error] Asset (Image) &quot;rbxthumb://type=AvatarHeadShot&amp;id=-1&amp;w=48&amp;h=48&amp;filters=circular&quot; load failed: The requested Ids are invalid, of an invalid type or missing.
 info: Roblox: 2026-03-18T14:25:05.845Z,25.845018,329206c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 debug: rbx.input: glViewTextBoxFocused() connect
 info: Roblox: 2026-03-18T14:25:07.631Z,27.631958,ffff6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA succeeded
@@ -273,40 +273,40 @@ debug: rbx.input: glViewTextBoxFocused() connect
 debug: rbx.input: glViewTextBoxFocusLost() disconnect
 debug: rbx.input: glViewTextBoxFocused() connect
 debug: rbx.input: glViewTextBoxFocusLost() disconnect
-info: Roblox: 2026-03-18T14:25:17.473Z,37.473370,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#25 0x7c247a6fb4b0) time:2944.8ms (net:2944.8ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:82 url:{ "https://auth.roblox.com/v2/login" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:17.473Z,37.473370,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#25 0x7c247a6fb4b0) time:2944.8ms (net:2944.8ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:82 url:{ &quot;https://auth.roblox.com/v2/login&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:17.473Z,37.473999,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://auth.roblox.com/v2/login`
 info: Roblox: 2026-03-18T14:25:17.474Z,37.474045,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`403`
-info: Roblox: 2026-03-18T14:25:17.474Z,37.474079,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{"errors":[{"code":0,"message":"Challenge is required to authorize the request"}]}`
+info: Roblox: 2026-03-18T14:25:17.474Z,37.474079,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;errors&quot;:[{&quot;code&quot;:0,&quot;message&quot;:&quot;Challenge is required to authorize the request&quot;}]}`
 info: Roblox: 2026-03-18T14:25:17.474Z,37.474342,db9006c0,6 [FLog::Warning] Warning: Rendering generic challenge.
 info: Roblox: 2026-03-18T14:25:17.478Z,37.478210,db9006c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: UIServicesConduit: will execute ui service binary
 info: Roblox: 2026-03-18T14:25:20.694Z,40.694538,db9006c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: Roblox: 2026-03-18T14:25:20.699Z,40.699745,db9006c0,6 [FLog::Warning] Warning: Load generic challenge failed.
 debug: rbx.input: glViewTextBoxFocused() connect
-info: Roblox: 2026-03-18T14:25:21.967Z,41.967831,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#27 0x7c24774c06b0) time:260.5ms (net:260.4ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ "https://apis.roblox.com/challenge-dialog-service/v1/dialogs" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
-info: Roblox: 2026-03-18T14:25:23.049Z,43.049591,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#28 0x7c2479d40cb0) time:342.3ms (net:342.3ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ "https://apis.roblox.com/challenge-dialog-service/v1/dialogs" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
-info: Roblox: 2026-03-18T14:25:24.010Z,44.010349,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#30 0x7c24774ceab0) time:302.9ms (net:302.8ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ "https://apis.roblox.com/challenge-dialog-service/v1/dialogs" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
-info: Roblox: 2026-03-18T14:25:25.050Z,45.050755,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#31 0x7c2479d400b0) time:343.6ms (net:343.6ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ "https://apis.roblox.com/challenge-dialog-service/v1/dialogs" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:21.967Z,41.967831,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#27 0x7c24774c06b0) time:260.5ms (net:260.4ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ &quot;https://apis.roblox.com/challenge-dialog-service/v1/dialogs&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:23.049Z,43.049591,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#28 0x7c2479d40cb0) time:342.3ms (net:342.3ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ &quot;https://apis.roblox.com/challenge-dialog-service/v1/dialogs&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:24.010Z,44.010349,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#30 0x7c24774ceab0) time:302.9ms (net:302.8ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ &quot;https://apis.roblox.com/challenge-dialog-service/v1/dialogs&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:25.050Z,45.050755,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#31 0x7c2479d400b0) time:343.6ms (net:343.6ms timeInRetryQueue:0.0ms)status:401 Unauthorized bodySize:67 url:{ &quot;https://apis.roblox.com/challenge-dialog-service/v1/dialogs&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 debug: rbx.input: glViewTextBoxFocusLost() disconnect
-info: Roblox: 2026-03-18T14:25:27.092Z,47.092175,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#32 0x7c2479d478b0) time:763.7ms (net:763.6ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:82 url:{ "https://auth.roblox.com/v2/login" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:27.092Z,47.092175,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#32 0x7c2479d478b0) time:763.7ms (net:763.6ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:82 url:{ &quot;https://auth.roblox.com/v2/login&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:27.106Z,47.106941,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://auth.roblox.com/v2/login`
 info: Roblox: 2026-03-18T14:25:27.106Z,47.106995,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`403`
-info: Roblox: 2026-03-18T14:25:27.107Z,47.107014,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{"errors":[{"code":0,"message":"Challenge is required to authorize the request"}]}`
+info: Roblox: 2026-03-18T14:25:27.107Z,47.107014,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;errors&quot;:[{&quot;code&quot;:0,&quot;message&quot;:&quot;Challenge is required to authorize the request&quot;}]}`
 info: Roblox: 2026-03-18T14:25:27.107Z,47.107208,db9006c0,6 [FLog::Warning] Warning: Rendering generic challenge.
 info: Roblox: 2026-03-18T14:25:27.110Z,47.110962,db9006c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: Roblox: 2026-03-18T14:25:33.990Z,53.990372,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
 info: Roblox: 2026-03-18T14:25:36.490Z,56.490173,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
 info: Roblox: 2026-03-18T14:25:38.990Z,58.990395,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
 info: Roblox: 2026-03-18T14:25:39.169Z,59.169918,1d8cc6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 14999 milliseconds
-info: Roblox: 2026-03-18T14:25:39.170Z,59.170052,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#29 0x7c24774c3cb0) time:15462.7ms (net:15462.7ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ "https://economy.roblox.com//v1/users/-1/currency" } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:39.170Z,59.170052,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#29 0x7c24774c3cb0) time:15462.7ms (net:15462.7ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://economy.roblox.com//v1/users/-1/currency&quot; } ip: external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:39.710Z,59.710579,db9006c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: Roblox: 2026-03-18T14:25:41.856Z,61.856297,329206c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config
 info: Roblox: 2026-03-18T14:25:42.445Z,62.445683,ffff6c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA succeeded
 info: Roblox: 2026-03-18T14:25:42.445Z,62.445786,ffff6c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config not deployed
-info: Roblox: 2026-03-18T14:25:42.445Z,62.445869,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#44 0x7c2479cd90b0) time:1255.9ms (net:1255.9ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ "https://economy.roblox.com//v1/users/-1/currency" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:42.445Z,62.445869,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#44 0x7c2479cd90b0) time:1255.9ms (net:1255.9ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ &quot;https://economy.roblox.com//v1/users/-1/currency&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:42.456Z,62.456329,329206c0,6 [FLog::Warning] Warning: HTTP error url:`https://economy.roblox.com//v1/users/-1/currency`
 info: Roblox: 2026-03-18T14:25:42.456Z,62.456375,329206c0,6 [FLog::Warning] Warning: HTTP error code:`401`
-info: Roblox: 2026-03-18T14:25:42.456Z,62.456413,329206c0,6 [FLog::Warning] Warning: HTTP error body:`{"errors":[{"code":0,"message":"Authentication cookie is empty"}]}
+info: Roblox: 2026-03-18T14:25:42.456Z,62.456413,329206c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;errors&quot;:[{&quot;code&quot;:0,&quot;message&quot;:&quot;Authentication cookie is empty&quot;}]}
 `
 info: Roblox: 2026-03-18T14:25:42.456Z,62.456520,329206c0,6 [FLog::Warning] Warning: Failed to fetch user currency: table: 0x52d7f985d07ffef4
 info: Roblox: 2026-03-18T14:25:42.457Z,62.457050,329206c0,6 [FLog::Warning] Warning: Unhandled Promise rejection:
@@ -324,22 +324,22 @@ CoreGui.RobloxGui.Modules.LuaApp.Components.EventReceivers.RobuxEventReceiver:41
 
 info: Roblox: 2026-03-18T14:25:43.940Z,63.940231,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
 info: Roblox: 2026-03-18T14:25:44.089Z,64.089874,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
-info: Roblox: 2026-03-18T14:25:44.289Z,64.289162,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#46 0x7c247097f6b0) time:282.2ms (net:282.2ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:82 url:{ "https://auth.roblox.com/v2/login" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:44.289Z,64.289162,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#46 0x7c247097f6b0) time:282.2ms (net:282.2ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:82 url:{ &quot;https://auth.roblox.com/v2/login&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:44.289Z,64.289566,398e06c0,6 [FLog::Warning] Warning: HTTP error url:`https://auth.roblox.com/v2/login`
 info: Roblox: 2026-03-18T14:25:44.289Z,64.289619,398e06c0,6 [FLog::Warning] Warning: HTTP error code:`403`
-info: Roblox: 2026-03-18T14:25:44.289Z,64.289642,398e06c0,6 [FLog::Warning] Warning: HTTP error body:`{"errors":[{"code":0,"message":"Challenge is required to authorize the request"}]}`
+info: Roblox: 2026-03-18T14:25:44.289Z,64.289642,398e06c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;errors&quot;:[{&quot;code&quot;:0,&quot;message&quot;:&quot;Challenge is required to authorize the request&quot;}]}`
 info: Roblox: 2026-03-18T14:25:44.289Z,64.289894,398e06c0,6 [FLog::Warning] Warning: Rendering generic challenge.
 info: Roblox: 2026-03-18T14:25:44.294Z,64.294151,398e06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: Roblox: 2026-03-18T14:25:49.089Z,69.089668,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
 info: Roblox: 2026-03-18T14:25:51.589Z,71.589653,bcfcc6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
 info: Roblox: 2026-03-18T14:25:54.342Z,74.342339,db9006c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
 info: Roblox: 2026-03-18T14:25:56.836Z,76.836754,1d8cc6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Connection timed out after 59999 milliseconds
-info: Roblox: 2026-03-18T14:25:56.836Z,76.836861,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7c24709706b0) time:59996.6ms (net:59996.5ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ "http://10.0.2.2:5051" } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:56.836Z,76.836861,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7c24709706b0) time:59996.6ms (net:59996.5ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;http://10.0.2.2:5051&quot; } ip: external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:56.836Z,76.836914,ffff6c0,6 [DFLog::WebSocketTraceError] ws: 1 url: http://10.0.2.2:5051 error: HttpError: Timedout
-info: Roblox: 2026-03-18T14:25:57.918Z,77.918571,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#55 0x7c2470985ab0) time:1045.9ms (net:1045.9ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ "https://apis.roblox.com/user-heartbeats-api/pulse" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:25:57.918Z,77.918571,ffff6c0,12 [DFLog::HttpTraceError] HttpResponse(#55 0x7c2470985ab0) time:1045.9ms (net:1045.9ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ &quot;https://apis.roblox.com/user-heartbeats-api/pulse&quot; } ip:128.116.44.3 external:0 numberOfTimesRetried:0
 info: Roblox: 2026-03-18T14:25:57.922Z,77.922394,db9006c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/user-heartbeats-api/pulse`
 info: Roblox: 2026-03-18T14:25:57.922Z,77.922455,db9006c0,6 [FLog::Warning] Warning: HTTP error code:`403`
-info: Roblox: 2026-03-18T14:25:57.922Z,77.922478,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{"sessionId":"68c5889f-2e80-418d-92d3-67d87a57cb2e","status":403,"message":"Unauthorized."}`
+info: Roblox: 2026-03-18T14:25:57.922Z,77.922478,db9006c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;sessionId&quot;:&quot;68c5889f-2e80-418d-92d3-67d87a57cb2e&quot;,&quot;status&quot;:403,&quot;message&quot;:&quot;Unauthorized.&quot;}`
 info: Roblox: 2026-03-18T14:25:57.922Z,77.922638,db9006c0,6 [FLog::Warning] Warning: Unhandled Promise rejection:
 
 table: 0x6188137d8b4b50e4
@@ -368,4 +368,415 @@ info: Roblox: 2026-03-18T14:26:01.252Z,81.252632,bcfcc6c0,6 [FLog::SingleSurface
 info: UIServicesConduit: waiting for ui service to exit...
 info: UIServicesConduit: ui service exited
 info: app: lifecycle: clean_exit_success delta=560.7013800001005ms
-lifedestroyed@ubuntu:~$ 
+<font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>$ flatpak override --user --device=all org.vinegarhq.Sober 
+flatpak override --user --env=LIBGL_ALWAYS_SOFTWARE=1 org.vinegarhq.Sober
+flatpak update
+Looking for updates…
+
+Nothing to do.
+<font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>$ flatpak run org.vinegarhq.Sober
+sober: /usr/lib/x86_64-linux-gnu/libcurl.so.4: no version information available (required by sober)
+/proc/self/exe: /usr/lib/x86_64-linux-gnu/libcurl.so.4: no version information available (required by /proc/self/exe)
+info: app: lifecycle: app_start delta=2.9999995604157448e-05ms
+info: app: lifecycle: logging_started delta=54.66723699984141ms
+info: app: app tag: s095-2028-x86_64-gnu
+info: app: cpu model: AMD Ryzen 5 8600G w/ Radeon 760M Graphics
+info: app: os release: 
+info: app: host os release: Ubuntu
+info: app: desktop: ubuntu:GNOME (on wayland)
+info: app: lifecycle: update_flags_from_remote_manifest delta=0.036228000186383724ms
+info: state: using manifest object: {&quot;app_settings&quot;:{&quot;FFlagRenderUseTextureManager224&quot;:false},&quot;r1&quot;:1,&quot;u&quot;:1}
+info: window: using C.UTF-8 locale
+info: app: lifecycle: runtime_handler delta=1141.8681220000144ms
+info: app: lifecycle: fs_init delta=0.031808999832719564ms
+I/O warning : failed to load &quot;/home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/appData/GlobalBasicSettings_13.xml&quot;: No such file or directory
+WARN: state: could not parse file /home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/appData/GlobalBasicSettings_13.xml
+info: app: lifecycle: check_security delta=199.9723960000556ms
+info: app$json: {&quot;product_name&quot;:&quot;X870 GAMING WIFI6&quot;,&quot;product_version&quot;:&quot;-CF-WCP&quot;,&quot;type&quot;:&quot;device_product_info&quot;}
+info: app: lifecycle: core_runtime delta=0.05297699989750981ms
+info: app: lifecycle: app_core delta=135.77612300007604ms
+info: app: lifecycle: devices_init delta=1364.4804529999383ms
+info: app: lifecycle: global_window_init delta=0.007680000038817525ms
+info: app: lifecycle: gamemode_init delta=225.875800000038ms
+info: app: lifecycle: interface_init delta=23.903818000108004ms
+debug: JNIMain: TelemetryProtocol::setProcessTimeOverride: 13583
+info: device_params_impls$json: {&quot;device_memory_class_mib&quot;:4096,&quot;device_memory_mib&quot;:31153,&quot;is_low_ram_device&quot;:false,&quot;type&quot;:&quot;memory_params&quot;}
+info: rbx.JNIRobloxSettings: Setting default app policy file: content/guac/defaultConfigs/GuacDefaultPolicy-GlobalDist.json
+info: state: Applying remote app settings override: FFlagRenderUseTextureManager224=false
+info: Roblox: 2026-03-18T14:39:23.731Z,10.731417,18b8e080,6 [FLog::AndroidGLView] nativeInitClientSettings
+info: Roblox: 2026-03-18T14:39:23.742Z,10.742664,18b8e080,6,Info [DFLog::FlagCache] [FlagCache] Deferring flag cache write to post TTI
+info: Roblox: 2026-03-18T14:39:23.742Z,10.742895,18b8e080,6 [FLog::AndroidGLView] nativePostClientSettingsLoadedInitialization3
+info: Roblox: 2026-03-18T14:39:23.744Z,10.744915,18b8e080,6 [FLog::ClientRunInfo] RobloxGitHash: f66d8e8a955e4b59b3e90e0ac58d8b41a631366d
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745058,18b8e080,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745077,18b8e080,6 [FLog::ClientRunInfo] The channel is production
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745568,18b8e080,6,Critical [DFLog::Mimalloc] Mimalloc integration detected, settings:
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745588,18b8e080,6,Critical [DFLog::Mimalloc] mi_option_show_errors=1
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745602,18b8e080,6,Info [DFLog::Mimalloc] mi_option_show_stats=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745615,18b8e080,6,Info [DFLog::Mimalloc] mi_option_verbose=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745627,18b8e080,6,Critical [DFLog::Mimalloc] mi_option_eager_commit=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745640,18b8e080,6,Info [DFLog::Mimalloc] mi_option_arena_eager_commit=2
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745653,18b8e080,6,Info [DFLog::Mimalloc] mi_option_purge_decommits=1
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745665,18b8e080,6,Info [DFLog::Mimalloc] mi_option_allow_large_os_pages=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745677,18b8e080,6,Info [DFLog::Mimalloc] mi_option_reserve_huge_os_pages=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745688,18b8e080,6,Info [DFLog::Mimalloc] mi_option_reserve_huge_os_pages_at=-1
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745700,18b8e080,6,Info [DFLog::Mimalloc] mi_option_reserve_os_memory=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745711,18b8e080,6,Info [DFLog::Mimalloc] mi_option_deprecated_segment_cache=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745724,18b8e080,6,Info [DFLog::Mimalloc] mi_option_deprecated_page_reset=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745735,18b8e080,6,Info [DFLog::Mimalloc] mi_option_abandoned_page_purge=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745747,18b8e080,6,Critical [DFLog::Mimalloc] mi_option_purge_delay=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745759,18b8e080,6,Info [DFLog::Mimalloc] mi_option_deprecated_segment_reset=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745770,18b8e080,6,Info [DFLog::Mimalloc] mi_option_eager_commit_delay=1
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745783,18b8e080,6,Info [DFLog::Mimalloc] mi_option_use_numa_nodes=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745794,18b8e080,6,Info [DFLog::Mimalloc] mi_option_disallow_os_alloc=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745807,18b8e080,6,Info [DFLog::Mimalloc] mi_option_os_tag=100
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745818,18b8e080,6,Info [DFLog::Mimalloc] mi_option_max_errors=32
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745830,18b8e080,6,Info [DFLog::Mimalloc] mi_option_max_warnings=32
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745841,18b8e080,6,Info [DFLog::Mimalloc] mi_option_deprecated_max_segment_reclaim=10
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745853,18b8e080,6,Info [DFLog::Mimalloc] mi_option_destroy_on_exit=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745865,18b8e080,6,Info [DFLog::Mimalloc] mi_option_arena_reserve=1048576
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745876,18b8e080,6,Info [DFLog::Mimalloc] mi_option_arena_purge_mult=1
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745888,18b8e080,6,Info [DFLog::Mimalloc] mi_option_deprecated_purge_extend_delay=1
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745900,18b8e080,6,Info [DFLog::Mimalloc] mi_option_disallow_arena_alloc=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745912,18b8e080,6,Info [DFLog::Mimalloc] mi_option_retry_on_oom=400
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745923,18b8e080,6,Info [DFLog::Mimalloc] mi_option_visit_abandoned=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745934,18b8e080,6,Info [DFLog::Mimalloc] mi_option_guarded_min=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745946,18b8e080,6,Info [DFLog::Mimalloc] mi_option_guarded_max=1073741824
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745958,18b8e080,6,Info [DFLog::Mimalloc] mi_option_guarded_precise=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745970,18b8e080,6,Info [DFLog::Mimalloc] mi_option_guarded_sample_rate=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745981,18b8e080,6,Info [DFLog::Mimalloc] mi_option_guarded_sample_seed=0
+info: Roblox: 2026-03-18T14:39:23.745Z,10.745996,18b8e080,6,Info [DFLog::Mimalloc] mi_option_page_reclaim_on_free=0
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746009,18b8e080,6,Info [DFLog::Mimalloc] mi_option_page_full_retain=2
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746020,18b8e080,6,Info [DFLog::Mimalloc] mi_option_page_max_candidates=4
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746032,18b8e080,6,Info [DFLog::Mimalloc] mi_option_max_vabits=0
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746043,18b8e080,6,Info [DFLog::Mimalloc] mi_option_pagemap_commit=0
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746055,18b8e080,6,Info [DFLog::Mimalloc] mi_option_page_commit_on_demand=0
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746066,18b8e080,6,Info [DFLog::Mimalloc] mi_option_page_max_reclaim=-1
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746078,18b8e080,6,Info [DFLog::Mimalloc] mi_option_page_cross_thread_max_reclaim=32
+info: Roblox: 2026-03-18T14:39:23.746Z,10.746833,18b8e080,6,Info [FLog::AppMemUsageStatus] 923286370
+info: Roblox: 2026-03-18T14:39:23.747Z,10.747507,18b8e080,6,Warning [FLog::IxpStorageManager] Failed to open cache file for reading
+info: Roblox: 2026-03-18T14:39:23.747Z,10.747570,18b8e080,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1 read from file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/tombstone.dat
+info: Roblox: 2026-03-18T14:39:23.747Z,10.747598,18b8e080,6,Info [FLog::TombstoneCache] [FlagCache] Setting holdout experiment state to: false
+info: Roblox: 2026-03-18T14:39:23.747Z,10.747619,18b8e080,6,Warning [FLog::LocalStorageHandler] Not available on the current platform.
+info: rbx.AppBridgeV2: nativeAppBridgeAppStart_original:
+info: Roblox: 2026-03-18T14:39:23.749Z,10.749775,c0b3e6c0,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] user: flagLoaded, availableDiskSpace: 42419019776 bytes, elapsed: 0.020 ms
+debug: rbx.AppBridgeV2: nativeAppBridgeV2Init:
+info: Roblox: 2026-03-18T14:39:23.749Z,10.749946,c033d6c0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+info: Roblox: 2026-03-18T14:39:23.750Z,10.750402,c033d6c0,6 [FLog::SingleSurfaceApp] initializeSingleton
+info: Roblox: 2026-03-18T14:39:23.750Z,10.750459,c033d6c0,6 [FLog::Output] setAssetFolder /home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/assets/content/
+info: Roblox: 2026-03-18T14:39:23.750Z,10.750533,c033d6c0,6 [FLog::Output] setExtraAssetFolder /home/lifedestroyed/.var/app/org.vinegarhq.Sober/data/sober/assets/ExtraContent
+info: Roblox: 2026-03-18T14:39:23.750Z,10.750655,c033d6c0,6 [FLog::Output] Evaluating deferred inferred crashes
+info: Roblox: 2026-03-18T14:39:23.750Z,10.750798,c033d6c0,6 [FLog::SingleSurfaceApp] registerForForceOTAUpdateAvailableConnection stage = 0
+info: Roblox: 2026-03-18T14:39:23.753Z,10.753446,c033d6c0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:9398507482125876514
+info: Roblox: 2026-03-18T14:39:23.753Z,10.753909,c033d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+info: Roblox: 2026-03-18T14:39:23.753Z,10.753936,c033d6c0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+info: Roblox: 2026-03-18T14:39:23.753Z,10.753957,c033d6c0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+info: Roblox: 2026-03-18T14:39:23.753Z,10.753977,c033d6c0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+info: Roblox: 2026-03-18T14:39:23.754Z,10.754049,c033d6c0,6,Info [DFLog::CoordinatorMemoryPressure] Setting memory pressure threshold to none
+info: Roblox: 2026-03-18T14:39:23.756Z,10.756281,c0b3e6c0,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: BypassCache(TelemetryCache(SqliteCache+TelemetryCache(FileCache(temp))), TelemetryCache(FileCache(perm)), TelemetryCache(FileCache(session_scoped))), duration: 6.327 ms, dbOpenCount: 3, dbMaxMemory: 0.181 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 0
+info: app: lifecycle: interface_start delta=10481.452976999804ms
+info: Roblox: 2026-03-18T14:39:23.757Z,10.757393,c033d6c0,6 [FLog::SingleSurfaceApp] initializeLuaAppWithLoggedInUser: (stage:Native).
+info: Roblox: 2026-03-18T14:39:23.757Z,10.757419,c033d6c0,6 [FLog::SingleSurfaceApp] applyLocale
+info: Roblox: 2026-03-18T14:39:23.757Z,10.757864,c033d6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Load configs for user key: app:9398507482125876514
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758141,c033d6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Retrieving patch
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758161,c033d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=118593852151835, assetVersion=6172, maxAppVersion=710, localAssetURI=rbxasset://models/UniversalApp/UniversalApp.rbxm
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758187,c033d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: config: 118593852151835.6284
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758210,c033d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: numAttemptsRemaining: 1
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758227,c033d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: contentId=https://www.roblox.com/asset/?id=118593852151835&amp;version=6284
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758245,c033d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: search downloaded patch cache.
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758267,c033d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: get patch from local backup cache for Model: 118593852151835.6284
+info: Roblox: 2026-03-18T14:39:23.758Z,10.758307,c033d6c0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+info: Roblox: 2026-03-18T14:39:23.763Z,10.763613,e76b06c0,6,Warning [FLog::Output] Hello world ...!
+info: Roblox: 2026-03-18T14:39:23.763Z,10.763624,e76b06c0,6,Warning [FLog::Output] Hello ***187381***
+info: Roblox: 2026-03-18T14:39:23.890Z,10.890622,c033d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:InitializedLuaApp)
+info: app: lifecycle: pre_main_loop delta=133.31668700021692ms
+info: app: lifecycle: enter_main_loop delta=0.007249999791383743ms
+debug: rbx.AppBridgeV2: nativeAppBridgeV2UpdateSurfaceAppWithPlatformParams:
+debug: rbx.AppBridgeV2: nativeAppBridgeV2UpdateSurfaceAppWithPlatformParams: Created ANativeWindow 0x7ace182d0600 (ID:1)
+info: Roblox: 2026-03-18T14:39:23.895Z,10.895480,c033d6c0,6 [FLog::SingleSurfaceApp] updateSurfaceLuaApp: (stage:InitializedLuaApp)
+info: Roblox: 2026-03-18T14:39:23.895Z,10.895541,c033d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::update.
+info: Roblox: 2026-03-18T14:39:23.895Z,10.895600,413e06c0,6 [FLog::Output] Info: DataModel Loading rbxasset://places/Mobile.rbxl
+debug: rbx.AppBridgeV2: nativeAppBridgeV2UpdateSurfaceGameWithPlatformParams:
+debug: rbx.AppBridgeV2: nativeAppBridgeV2UpdateSurfaceGameWithPlatformParams: Same native window 0x7ace182d0600. No need to do anything!
+info: Roblox: 2026-03-18T14:39:23.895Z,10.895760,c033d6c0,6 [FLog::SingleSurfaceApp] updateSurfaceUGCGame: (stage:InitializedLuaApp).
+info: Roblox: 2026-03-18T14:39:23.905Z,10.905613,413e06c0,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+info: Roblox: 2026-03-18T14:39:23.920Z,10.920298,e76b06c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Load configs for user key: app:9398507482125876514
+info: Roblox: 2026-03-18T14:39:23.920Z,10.920712,e76b06c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Retrieving patch
+info: Roblox: 2026-03-18T14:39:23.920Z,10.920732,e76b06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=16639814581, assetVersion=7705, maxAppVersion=710, localAssetURI=
+info: Roblox: 2026-03-18T14:39:24.094Z,11.094508,25bcd6c0,12 [DFLog::HttpTraceError] CURLINFO_OS_ERRNO: 111 Connection refused
+info: Roblox: 2026-03-18T14:39:24.094Z,11.094613,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Failed to connect to localhost port 5051 after 0 ms: Could not connect to server
+info: app_interface$json: {&quot;place_id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;game_loaded&quot;}
+info: Roblox: 2026-03-18T14:39:24.095Z,11.095704,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7acd842636b0) time:0.9ms (net:0.9ms timeInRetryQueue:0.0ms) error:3 message:HttpError: ConnectFail url:{ &quot;http://localhost:5051&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:39:24.095Z,11.095773,243ca6c0,6 [DFLog::WebSocketTraceError] ws: 0 url: http://localhost:5051 error: HttpError: ConnectFail
+info: Roblox: 2026-03-18T14:39:24.105Z,11.105030,e76b06c0,6 [FLog::Warning] Warning: Unable to fetch completed survey ids from app storage  
+info: Roblox: 2026-03-18T14:39:24.124Z,11.124097,413e06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: Roblox: 2026-03-18T14:39:24.150Z,11.150880,413e06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: app_interface$json: {&quot;type&quot;:&quot;will_handle_app_startup&quot;}
+debug: rbx.AppBridgeV2: nativeAppBridgeV2StartApp:
+debug: rbx.AppBridgeV2: nativeAppBridgeV2StartApp: Same native window 0x7ace182d0600. No need to do anything!
+info: Roblox: 2026-03-18T14:39:24.151Z,11.151287,c033d6c0,6 [FLog::SingleSurfaceApp] startLuaApp: (stage:InitializedLuaApp).
+info: Roblox: 2026-03-18T14:39:24.151Z,11.151335,c033d6c0,6 [FLog::SingleSurfaceApp] returnToLuaApp: (stage:InitializedLuaApp).
+info: Roblox: 2026-03-18T14:39:24.151Z,11.151375,c033d6c0,6 [FLog::SingleSurfaceApp] returnToLuaAppInternal: ... App has been initialized, returning from game.
+info: Roblox: 2026-03-18T14:39:24.151Z,11.151408,c033d6c0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7ace182d0600) [tid:0x7acdc033d6c0]
+info: Roblox: 2026-03-18T14:39:24.151Z,11.151471,c033d6c0,6,Warning [FLog::Graphics] RenderView created[1]
+info: Roblox: 2026-03-18T14:39:24.157Z,11.157080,c033d6c0,6 [FLog::Graphics] Vulkan: Using extension: VK_KHR_surface
+info: Roblox: 2026-03-18T14:39:24.157Z,11.157105,c033d6c0,6 [FLog::Graphics] Vulkan: Using extension: VK_KHR_get_physical_device_properties2
+info: Roblox: 2026-03-18T14:39:24.157Z,11.157123,c033d6c0,6 [FLog::Graphics] Vulkan: Using extension: VK_KHR_android_surface
+info: Roblox: 2026-03-18T14:39:24.196Z,11.196939,c033d6c0,6 [FLog::Graphics] Vulkan: Device llvmpipe (LLVM 21.1.8, 256 bits) is emulated, skipping
+info: Roblox: 2026-03-18T14:39:24.196Z,11.196976,c033d6c0,6 [FLog::Graphics] Vulkan: Device llvmpipe (LLVM 21.1.8, 256 bits) is emulated, skipping
+info: Roblox: 2026-03-18T14:39:24.197Z,11.197037,c033d6c0,6 [FLog::Graphics] DEVICE FAULT SUPPORTED
+info: vulkan: using emulated fast ETC2 support
+info: vk_memory_allocator: Using memory budget extensions
+info: compute_manager: device supports push descriptors: YES
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205615,c033d6c0,6 [FLog::Graphics] Vulkan Android Device: 
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205690,c033d6c0,6 [FLog::Graphics] VULKAN heapIndex = 0, heapFlags = 0 (host), heapSize = 1328521216
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205705,c033d6c0,6 [FLog::Graphics] VULKAN heapIndex = 1, heapFlags = 1 (device), heapSize = 2657050624
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205718,c033d6c0,6 [FLog::Graphics] VULKAN unifiedMemory = false, device memory = 11246985216, host memory = 5623488512, setting caps.videoMemory = 67108864
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205732,c033d6c0,6 [FLog::Graphics] Vulkan Device: AMD Radeon 760M Graphics (RADV PHOENIX)
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205745,c033d6c0,6 [FLog::Graphics] Vulkan Device: Vendor 1002 Device 15bf
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205757,c033d6c0,6 [FLog::Graphics] Vulkan Device: Driver 25.3.5 (104869893)
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205769,c033d6c0,6 [FLog::Graphics] Vulkan Device: API 1.4.328
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205780,c033d6c0,6 [FLog::Graphics] Caps: passFloatsLimit 1073741824
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205791,c033d6c0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205804,c033d6c0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205815,c033d6c0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 0 DepthFloat 1 DepthClamp 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205827,c033d6c0,6 [channel] Caps: Border Color 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205838,c033d6c0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205849,c033d6c0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205860,c033d6c0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 1 ETC2 1 Half 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205872,c033d6c0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205882,c033d6c0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205894,c033d6c0,6 [channel] Caps: Texture: Size 16384 Units 32 VertexUnits 32
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205905,c033d6c0,6 [channel] Caps: ConstantBufferSize 16384
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205916,c033d6c0,6 [channel] Caps: isAppleGPU 0
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205928,c033d6c0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+info: Roblox: 2026-03-18T14:39:24.205Z,11.205938,c033d6c0,6 [channel] Caps: RTFlip 0 MinusOneToOneDepth 0
+info: Roblox: 2026-03-18T14:39:24.206Z,11.206011,c033d6c0,6 [FLog::Graphics] Vulkan: Loaded pipeline cache (64120 bytes, hash 22b52cbf)
+info: Roblox: 2026-03-18T14:39:24.208Z,11.208703,c033d6c0,6 [FLog::Graphics] Vulkan: creating framebuffer 1854x1011
+info: vulkan: create swapchain with w 1854 h 1011
+info: Roblox: 2026-03-18T14:39:24.209Z,11.209953,c033d6c0,6 [FLog::Graphics] Vulkan: swapchain images 4 present mode 2 format 44 size 1854x1011
+info: Roblox: 2026-03-18T14:39:24.210Z,11.210251,c033d6c0,6 [FLog::Graphics] Video memory size: 67108864
+info: Roblox: 2026-03-18T14:39:24.223Z,11.223706,c033d6c0,6,Warning [FLog::Graphics] Loaded 3296 shaders from pack vulkan_mobile variant default (14707483 bytes)
+info: Roblox: 2026-03-18T14:39:24.223Z,11.223797,c033d6c0,6,Warning [FLog::Graphics] Compiled 837 shaders in 13 ms
+info: Roblox: 2026-03-18T14:39:24.225Z,11.225208,c033d6c0,6,Warning [FLog::Graphics] TM2: newTranscoder:false
+info: Roblox: 2026-03-18T14:39:24.225Z,11.225228,c033d6c0,6,Warning [FLog::Graphics] TM2: retry:false, respectDoNotAllowBaseline:true
+info: Roblox: 2026-03-18T14:39:24.225Z,11.225547,c033d6c0,6 [FLog::Graphics] Using TM1
+info: Roblox: 2026-03-18T14:39:24.225Z,11.225571,c033d6c0,6,Warning [FLog::Graphics] Using TexturePackGenerator.
+info: Roblox: 2026-03-18T14:39:24.225Z,11.225592,c033d6c0,6,Warning [FLog::Graphics] LightGrid is unified
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231343,c033d6c0,6 [FLog::SurfaceController] SurfaceController::disableVR
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231400,c033d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::initialize
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231434,c033d6c0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7acd7a8fccc0)
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231462,c033d6c0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231478,c033d6c0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7acd7a8fccc0)
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231507,c033d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:LuaApp)
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231565,c033d6c0,6 [FLog::SingleSurfaceApp] userDidLogin
+info: Roblox: 2026-03-18T14:39:24.231Z,11.231579,c033d6c0,6 [FLog::SingleSurfaceApp] applyLocale
+debug: rbx.appshell.report: NRI.setAppSuspended(false)
+info: app_interface$json: {&quot;type&quot;:&quot;did_handle_app_startup&quot;}
+info: Roblox: 2026-03-18T14:39:24.252Z,11.252658,e76b06c0,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+info: Roblox: 2026-03-18T14:39:24.252Z,11.252756,c033d6c0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+info: Roblox: 2026-03-18T14:39:24.255Z,11.255408,c033d6c0,6 [FLog::Graphics] Vulkan: resizing window framebuffer to 1854x1011
+info: vulkan: create swapchain with w 1854 h 1011
+info: Roblox: 2026-03-18T14:39:24.256Z,11.256537,c033d6c0,6 [FLog::Graphics] Vulkan: swapchain images 4 present mode 2 format 44 size 1854x1011
+info: Roblox: 2026-03-18T14:39:24.256Z,11.256631,c033d6c0,6 [FLog::Graphics] Future is bright shadows
+info: Roblox: 2026-03-18T14:39:24.258Z,11.258570,c033d6c0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+info: Roblox: 2026-03-18T14:39:24.258Z,11.258800,c033d6c0,6 [FLog::Graphics] Terrain TextureAtlas 2048x2048, tileCount: 6x6, tileSize: 256x256, border: 32, mip: 4
+info: Roblox: 2026-03-18T14:39:24.260Z,11.260178,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:39:24.315Z,11.315827,428306c0,6 [FLog::Error] Asset (Image) &quot;rbxthumb://type=AvatarHeadShot&amp;id=&amp;w=48&amp;h=48&amp;filters=circular&quot; load failed: Error parsing batch thumbnail request, invalid format
+info: Roblox: 2026-03-18T14:39:25.745Z,12.745605,e76b06c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/attribution/v1/events/post-authentication`
+info: Roblox: 2026-03-18T14:39:25.745Z,12.745661,e76b06c0,6 [FLog::Warning] Warning: HTTP error code:`nil`
+info: Roblox: 2026-03-18T14:39:25.745Z,12.745680,e76b06c0,6 [FLog::Warning] Warning: HTTP error body:`nil`
+info: Roblox: 2026-03-18T14:39:25.781Z,12.781441,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7acd78b424b0) time:1662.7ms (net:1662.7ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ &quot;https://apis.roblox.com/user-heartbeats-api/action-report&quot; } ip:128.116.31.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:39:25.795Z,12.795874,e76b06c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/user-heartbeats-api/action-report`
+info: Roblox: 2026-03-18T14:39:25.795Z,12.795920,e76b06c0,6 [FLog::Warning] Warning: HTTP error code:`403`
+info: Roblox: 2026-03-18T14:39:25.795Z,12.795946,e76b06c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;sessionId&quot;:&quot;b6937a5c-26dc-4dfd-b57b-419c60d42a7c&quot;,&quot;status&quot;:403,&quot;message&quot;:&quot;Unauthorized.&quot;}`
+info: Roblox: 2026-03-18T14:39:25.796Z,12.796224,e76b06c0,6 [FLog::Warning] Warning: Unhandled Promise rejection:
+
+table: 0x87dad0e59df8536d
+
+CoreGui.RobloxGui.Modules.LuaApp.Http.wrapRequestWithMiddleware:40 function makeRequest
+CoreGui.RobloxGui.Modules.LuaApp.Http.Requests.UserHeartbeats.PostUserHeartbeatsActionReport:51
+CoreGui.RobloxGui.Modules.LuaApp.Components.Session.UserHeartbeatsManager:186 function didMount
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:923
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:920 function commitLayoutEffectsForClassComponent
+CorePackages.Packages._Index.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:771 function recursivelyCommitLayoutEffects
+CorePackages.Packages._Index.ReactR
+info: Roblox: 2026-03-18T14:39:25.864Z,12.864665,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7acd78b43cb0) time:1740.2ms (net:1740.2ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ &quot;https://apis.roblox.com/platform-chat-api/v1/get-conversation-metadata&quot; } ip:128.116.31.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:39:25.947Z,12.947290,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:39:26.418Z,13.418859,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#8 0x7acd78a5e4b0) time:2278.3ms (net:2278.3ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:91 url:{ &quot;https://apis.roblox.com/user-heartbeats-api/pulse&quot; } ip:128.116.31.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:39:26.428Z,13.428856,413e06c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/user-heartbeats-api/pulse`
+info: Roblox: 2026-03-18T14:39:26.428Z,13.428925,413e06c0,6 [FLog::Warning] Warning: HTTP error code:`403`
+info: Roblox: 2026-03-18T14:39:26.428Z,13.428949,413e06c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;sessionId&quot;:&quot;b6937a5c-26dc-4dfd-b57b-419c60d42a7c&quot;,&quot;status&quot;:403,&quot;message&quot;:&quot;Unauthorized.&quot;}`
+info: Roblox: 2026-03-18T14:39:26.429Z,13.429124,413e06c0,6 [FLog::Warning] Warning: Unhandled Promise rejection:
+
+table: 0x5a8cb035494ba93d
+
+CoreGui.RobloxGui.Modules.LuaApp.Http.wrapRequestWithMiddleware:40 function makeRequest
+CoreGui.RobloxGui.Modules.LuaApp.Http.Requests.UserHeartbeats.PostUserHeartbeatsPulse:34
+CoreGui.RobloxGui.Modules.LuaApp.Components.Session.UserHeartbeatsManager:129
+
+info: rbx.AppBridgeV2: nativeAppBridgeAppStart: StartupController finished starting: stage = 2, BTID = 0, upgradeStatus = 2.
+info: Roblox: 2026-03-18T14:39:26.716Z,13.716487,e76b06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: Roblox: 2026-03-18T14:39:26.725Z,13.725624,e76b06c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA config
+info: Roblox: 2026-03-18T14:39:26.725Z,13.725790,e76b06c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Load configs for user key: app:9398507482125876514
+info: Roblox: 2026-03-18T14:39:26.726Z,13.726984,e76b06c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA config
+info: Roblox: 2026-03-18T14:39:26.727Z,13.727033,e76b06c0,6,Info [DFLog::FlagCache] [FlagCache] Writing pending flag cache to disk
+info: Roblox: 2026-03-18T14:39:26.727Z,13.727423,413e06c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Signature: 
+info: Roblox: 2026-03-18T14:39:26.727Z,13.727481,413e06c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Writing flags to : /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat
+info: Roblox: 2026-03-18T14:39:26.727Z,13.727792,413e06c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Successfully wrote 1082480 bytes to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat, time: 0.3184859999993961ms
+info: Roblox: 2026-03-18T14:39:26.727Z,13.727937,41c006c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry time 360, written to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/tombstone.dat
+info: Roblox: 2026-03-18T14:39:32.847Z,19.847517,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA succeeded
+info: Roblox: 2026-03-18T14:39:32.848Z,19.848347,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA config deployed
+info: Roblox: 2026-03-18T14:39:32.848Z,19.848381,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] OTA config updated, checking patch
+info: Roblox: 2026-03-18T14:39:32.848Z,19.848412,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Updated OTA config already cached.
+info: Roblox: 2026-03-18T14:39:32.848Z,19.848490,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA succeeded
+info: Roblox: 2026-03-18T14:39:32.848Z,19.848970,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA config deployed
+info: Roblox: 2026-03-18T14:39:32.848Z,19.848993,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] OTA config updated, checking patch
+info: Roblox: 2026-03-18T14:39:32.849Z,19.849012,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Updated OTA config already cached.
+info: Roblox: 2026-03-18T14:39:32.923Z,19.923216,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#12 0x7acd78b4aeb0) time:8727.4ms (net:8633.3ms timeInRetryQueue:0.0ms)status:401  bodySize:67 url:{ &quot;https://users.roblox.com/v1/users/authenticated/app-launch-info&quot; } ip:128.116.31.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:39:32.928Z,19.928619,413e06c0,6 [FLog::Warning] Warning: HTTP error url:`https://users.roblox.com/v1/users/authenticated/app-launch-info`
+info: Roblox: 2026-03-18T14:39:32.928Z,19.928680,413e06c0,6 [FLog::Warning] Warning: HTTP error code:`401`
+info: Roblox: 2026-03-18T14:39:32.928Z,19.928709,413e06c0,6 [FLog::Warning] Warning: HTTP error body:`{&quot;errors&quot;:[{&quot;code&quot;:0,&quot;message&quot;:&quot;Authentication cookie is empty&quot;}]}
+`
+info: Roblox: 2026-03-18T14:39:33.111Z,20.111965,428306c0,6 [FLog::Error] Asset (Image) &quot;rbxthumb://type=AvatarHeadShot&amp;id=-1&amp;w=48&amp;h=48&amp;filters=circular&quot; load failed: The requested Ids are invalid, of an invalid type or missing.
+info: Roblox: 2026-03-18T14:39:33.116Z,20.116121,e76b06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: Roblox: 2026-03-18T14:39:39.543Z,26.543346,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Connection timed out after 4999 milliseconds
+info: Roblox: 2026-03-18T14:39:39.543Z,26.543545,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#31 0x7acd845f12b0) time:4998.2ms (net:4998.1ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://silver.roblox.com/_/_/1px.gif&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:39:59.611Z,46.611107,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:39:59.694Z,46.694386,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:40:00.347Z,47.347755,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 4999 milliseconds
+info: Roblox: 2026-03-18T14:40:00.347Z,47.347908,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#50 0x7acd845f18b0) time:5719.7ms (net:5719.6ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://contentdelivery.roblox.com/test-50kb&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:40:01.694Z,48.694340,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:40:05.871Z,52.871826,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 4999 milliseconds
+info: Roblox: 2026-03-18T14:40:05.872Z,52.872009,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#54 0x7acd845f06b0) time:5524.0ms (net:5523.8ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://dfw2-128-116-95-3.roblox.com/_/_/1px.gif&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:40:06.877Z,53.877647,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:40:09.110Z,56.110519,e76b06c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config
+info: Roblox: 2026-03-18T14:40:09.377Z,56.377392,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:40:09.857Z,56.857239,243ca6c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA succeeded
+info: Roblox: 2026-03-18T14:40:09.857Z,56.857315,243ca6c0,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config not deployed
+info: Roblox: 2026-03-18T14:40:11.710Z,58.710403,e76b06c0,6 [FLog::Warning] Warning: HTTP error url:`https://apis.roblox.com/attribution/v1/events/post-authentication`
+info: Roblox: 2026-03-18T14:40:11.710Z,58.710484,e76b06c0,6 [FLog::Warning] Warning: HTTP error code:`nil`
+info: Roblox: 2026-03-18T14:40:11.710Z,58.710518,e76b06c0,6 [FLog::Warning] Warning: HTTP error body:`nil`
+info: Roblox: 2026-03-18T14:40:11.877Z,58.877342,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:40:14.245Z,61.245663,413e06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 28
+info: Roblox: 2026-03-18T14:40:14.267Z,61.267387,e76b06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: Roblox: 2026-03-18T14:40:14.267Z,61.267506,e76b06c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: Roblox: 2026-03-18T14:40:15.499Z,62.499699,243ca6c0,6,Info [FLog::PerformanceControlIXP] Is device exposed to experiments: false
+info: Roblox: 2026-03-18T14:40:15.795Z,62.795322,428306c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA config
+info: Roblox: 2026-03-18T14:40:15.795Z,62.795441,428306c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA config
+info: Roblox: 2026-03-18T14:40:15.795Z,62.795498,428306c0,6,Info [DFLog::FlagCache] [FlagCache] Writing pending flag cache to disk
+info: Roblox: 2026-03-18T14:40:15.795Z,62.795910,e76b06c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Signature: 
+info: Roblox: 2026-03-18T14:40:15.795Z,62.795971,e76b06c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Writing flags to : /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat
+info: Roblox: 2026-03-18T14:40:15.796Z,62.796394,e76b06c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Successfully wrote 1082480 bytes to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat, time: 0.43566000000083704ms
+info: Roblox: 2026-03-18T14:40:15.796Z,62.796585,41c006c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry time 360, written to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/tombstone.dat
+info: Roblox: 2026-03-18T14:40:18.295Z,65.295998,413e06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=80471914653504, assetVersion=6148, maxAppVersion=710, localAssetURI=rbxasset://models/InExperience/InExperience.rbxm
+info: Roblox: 2026-03-18T14:40:18.296Z,65.296074,413e06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: config: 80471914653504.6260
+info: Roblox: 2026-03-18T14:40:18.296Z,65.296120,413e06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: numAttemptsRemaining: 1
+info: Roblox: 2026-03-18T14:40:18.296Z,65.296158,413e06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: contentId=https://www.roblox.com/asset/?id=80471914653504&amp;version=6260
+info: Roblox: 2026-03-18T14:40:18.296Z,65.296181,413e06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: search downloaded patch cache.
+info: Roblox: 2026-03-18T14:40:18.296Z,65.296219,413e06c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: get patch from local backup cache for Model: 80471914653504.6260
+info: Roblox: 2026-03-18T14:40:18.296Z,65.296303,413e06c0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+info: Roblox: 2026-03-18T14:40:24.111Z,71.111816,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Connection timed out after 59999 milliseconds
+info: Roblox: 2026-03-18T14:40:24.111Z,71.111954,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7acd78b42ab0) time:60001.9ms (net:60001.9ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;http://10.0.2.2:5051&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:40:24.111Z,71.112000,243ca6c0,6 [DFLog::WebSocketTraceError] ws: 1 url: http://10.0.2.2:5051 error: HttpError: Timedout
+info: Roblox: 2026-03-18T14:40:32.509Z,79.509537,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA succeeded
+info: Roblox: 2026-03-18T14:40:32.510Z,79.510048,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA config deployed
+info: Roblox: 2026-03-18T14:40:32.510Z,79.510071,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] OTA config updated, checking patch
+info: Roblox: 2026-03-18T14:40:32.510Z,79.510094,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Updated OTA config already cached.
+info: Roblox: 2026-03-18T14:40:33.529Z,80.529961,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA succeeded
+info: Roblox: 2026-03-18T14:40:33.530Z,80.530678,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA config deployed
+info: Roblox: 2026-03-18T14:40:33.530Z,80.530716,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] OTA config updated, checking patch
+info: Roblox: 2026-03-18T14:40:33.530Z,80.530739,243ca6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Updated OTA config already cached.
+info: Roblox: 2026-03-18T14:41:13.658Z,120.658447,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:41:18.658Z,125.658073,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:41:23.657Z,130.657974,c033d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1854x1011
+info: Roblox: 2026-03-18T14:41:23.933Z,130.933853,243ca6c0,6 [FLog::Output] Settings Date header was Wed, 18 Mar 2026 14:41:13 GMT
+info: Roblox: 2026-03-18T14:41:23.933Z,130.933884,243ca6c0,6 [FLog::Output] Settings Date timestamp is 1773844873
+info: Roblox: 2026-03-18T14:41:23.943Z,130.943954,243ca6c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Signature: acDFtgI1U6LSfeUGb05OTEVFzNx8/rC+ChCbFr7wmYUTAYY7NB35hwrvdyRpOkx1qqldwcQ65bBAb4tiZbKQAA==
+info: Roblox: 2026-03-18T14:41:23.944Z,130.944016,243ca6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Writing flags to : /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat
+info: Roblox: 2026-03-18T14:41:23.944Z,130.944336,243ca6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Successfully wrote 1082480 bytes to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat, time: 0.32552199999713594ms
+info: Roblox: 2026-03-18T14:41:23.944Z,130.944534,243ca6c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone check passed: 1
+info: Roblox: 2026-03-18T14:41:23.944Z,130.944580,243ca6c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry time 360, written to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/tombstone.dat
+info: Roblox: 2026-03-18T14:41:23.944Z,130.944611,243ca6c0,6,Info [FLog::DynamicFastVariableReloader] DynamicFastVariableReloader finished flag fetch. Tombstone status: valid
+info: Roblox: 2026-03-18T14:42:06.870Z,173.870987,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 4999 milliseconds
+info: Roblox: 2026-03-18T14:42:06.871Z,173.871124,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#280 0x7acd845f0cb0) time:10549.3ms (net:10549.3ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://cdg2-128-116-13-3.roblox.com/_/_/1px.gif&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:43:26.450Z,253.450607,243ca6c0,6 [FLog::Output] Settings Date header was Wed, 18 Mar 2026 14:43:16 GMT
+info: Roblox: 2026-03-18T14:43:26.450Z,253.450653,243ca6c0,6 [FLog::Output] Settings Date timestamp is 1773844996
+info: Roblox: 2026-03-18T14:43:26.460Z,253.460526,243ca6c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Signature: acDFtgI1U6LSfeUGb05OTEVFzNx8/rC+ChCbFr7wmYUTAYY7NB35hwrvdyRpOkx1qqldwcQ65bBAb4tiZbKQAA==
+info: Roblox: 2026-03-18T14:43:26.460Z,253.460587,243ca6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Writing flags to : /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat
+info: Roblox: 2026-03-18T14:43:26.460Z,253.460861,243ca6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Successfully wrote 1082480 bytes to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/flag_cache.dat, time: 0.2977560000090307ms
+info: Roblox: 2026-03-18T14:43:26.461Z,253.461075,243ca6c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone check passed: 1
+info: Roblox: 2026-03-18T14:43:26.461Z,253.461105,243ca6c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry time 360, written to file: /home/lifedestroyed/.var/app/org.vinegarhq.Sober/cache/sober/cache/tombstone.dat
+info: Roblox: 2026-03-18T14:43:26.461Z,253.461151,243ca6c0,6,Info [FLog::DynamicFastVariableReloader] DynamicFastVariableReloader finished flag fetch. Tombstone status: valid
+info: Roblox: 2026-03-18T14:44:01.595Z,288.595245,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 5000 milliseconds
+info: Roblox: 2026-03-18T14:44:01.595Z,288.595367,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#305 0x7acd845f06b0) time:5235.6ms (net:5235.6ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://atl1-128-116-99-3.roblox.com/_/_/1px.gif&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:44:39.201Z,326.201691,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Operation timed out after 14999 milliseconds with 0 bytes received
+info: Roblox: 2026-03-18T14:44:39.201Z,326.201813,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#314 0x7acd8e902ab0) time:15001.5ms (net:15001.4ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://apis.roblox.com/user-heartbeats-api/pulse&quot; } ip:128.116.31.3 external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:44:43.919Z,330.919250,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Could not resolve host: ecsv2.roblox.com
+info: Roblox: 2026-03-18T14:44:43.919Z,330.919373,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#313 0x7acd82bf06b0) time:20019.1ms (net:20019.1ms timeInRetryQueue:0.0ms) error:2 message:HttpError: DnsResolve url:{ &quot;https://ecsv2.roblox.com/timespent/pbe&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:44:52.149Z,339.149109,41c006c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+info: Roblox: 2026-03-18T14:45:01.253Z,348.253418,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 14999 milliseconds
+info: Roblox: 2026-03-18T14:45:01.253Z,348.253540,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#316 0x7acd8044d8b0) time:20020.5ms (net:20020.5ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://apis.roblox.com/user-heartbeats-api/pulse&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180603,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 14999 milliseconds
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180695,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Failed to resolve host &apos;games.roblox.com&apos; with timeout after 20010 ms
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180695,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Failed to resolve host &apos;games.roblox.com&apos; with timeout after 20008 ms
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180725,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Failed to resolve host &apos;games.roblox.com&apos; with timeout after 20005 ms
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180756,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Failed to resolve host &apos;games.roblox.com&apos; with timeout after 19971 ms
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180817,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#318 0x7acd8bc8d8b0) time:20015.2ms (net:20015.2ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://games.roblox.com/v1/games?universeIds=6957250918&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180878,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#319 0x7acd8bc8e4b0) time:20013.9ms (net:20013.9ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://games.roblox.com//v1/games/multiget-playability-status?universeIds=6957250918&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180908,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#321 0x7acd8bc8f6b0) time:20011.3ms (net:20011.2ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://games.roblox.com/v1/games/6957250918/votes/user&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.180Z,359.180969,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#323 0x7acd81b1aeb0) time:20008.8ms (net:20008.8ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://games.roblox.com/v2/games/6957250918/media&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.180Z,359.181000,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#326 0x7acd8bc842b0) time:19973.4ms (net:19973.3ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://games.roblox.com/v1/games/recommendations/game/6957250918?maxRows=6&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188324,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Could not resolve host: assetdelivery.roblox.com
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188385,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 20010 milliseconds
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188416,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Operation timed out after 20007 milliseconds with 0 bytes received
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188446,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Resolving timed out after 20005 milliseconds
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188507,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#320 0x7acd8bc8d2b0) time:20020.3ms (net:20020.3ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://voice.roblox.com//v1/settings/verify/show-age-verification-overlay/6957250918&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188599,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#322 0x7acd81b130b0) time:20017.5ms (net:20017.5ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://voice.roblox.com//v1/settings/user-opt-in&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188629,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#324 0x7acd81b1eab0) time:20015.7ms (net:20015.7ms timeInRetryQueue:0.0ms) error:5 message:HttpError: Timedout url:{ &quot;https://apis.roblox.com/experience-guidelines-api/experience-guidelines/get-age-recommendation&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188660,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#317 0x7acd89545ab0) time:20088.6ms (net:20088.6ms timeInRetryQueue:0.0ms) error:2 message:HttpError: DnsResolve url:{ &quot;https://assetdelivery.roblox.com/v1/asset/?id=17208396156&amp;permissionContext=ignoreUniverse&amp;xcachesplit=0&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.188Z,359.188751,6938e6c0,6,Error [DFLog::AssetProvider] AssetResolutionWorkflow to get assetid: https://assetdelivery.roblox.com/v1/asset/?id=17208396156&amp;permissionContext=ignoreUniverse&amp;xcachesplit=0 failed!! adIndividualItemFailureReason: Unknown adBatchHttpStatusCode: 0 adBatchHttpErrorCode: OK adIndividualItemCode: -1 isAcr: false wasModerated: false adResolutionErrorMessage: DnsResolve adBatchJsonParsingError:  cdnHttpStatusCode: 0 cdnHttpErrorCode: OK cdnErrorMessage: 
+info: Roblox: 2026-03-18T14:45:12.198Z,359.198364,413e06c0,6 [FLog::Error] Error: Failed to load sound rbxassetid://17208396156: DnsResolve
+info: Roblox: 2026-03-18T14:45:12.207Z,359.207550,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Could not resolve host: apis.roblox.com
+info: Roblox: 2026-03-18T14:45:12.207Z,359.207611,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#325 0x7acd8bc81eb0) time:20009.8ms (net:20009.7ms timeInRetryQueue:0.0ms) error:2 message:HttpError: DnsResolve url:{ &quot;https://apis.roblox.com/virtual-events/v1/universes/6957250918/virtual-events?limit=25&amp;fromUtc=2026-03-18T14%3A44%3A42Z&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.429Z,359.429962,25bcd6c0,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Could not resolve host: assetdelivery.roblox.com
+info: Roblox: 2026-03-18T14:45:12.430Z,359.430084,243ca6c0,12 [DFLog::HttpTraceError] HttpResponse(#327 0x7acd89544eb0) time:20011.1ms (net:20011.1ms timeInRetryQueue:0.0ms) error:2 message:HttpError: DnsResolve url:{ &quot;https://assetdelivery.roblox.com/v1/assets/batch&quot; } ip: external:0 numberOfTimesRetried:0
+info: Roblox: 2026-03-18T14:45:12.430Z,359.430267,6938e6c0,6,Error [DFLog::AssetProvider] AssetResolutionWorkflow to get assetid: https://assetdelivery.roblox.com/v1/asset/?id=14618207727&amp;serverplaceid=0&amp;scriptinsert=1&amp;clientinsert=0 failed!! adIndividualItemFailureReason: Unknown adBatchHttpStatusCode: -1 adBatchHttpErrorCode: DnsResolve adIndividualItemCode: -1 isAcr: false wasModerated: false adResolutionErrorMessage: HttpError: DnsResolve adBatchJsonParsingError:  cdnHttpStatusCode: 0 cdnHttpErrorCode: OK cdnErrorMessage: 
+info: Roblox: 2026-03-18T14:45:12.448Z,359.448303,413e06c0,6 [FLog::Warning] Warning: CoreGui.RobloxGui.Modules.AvatarExperience.Common.Managers.AnimationUtils:115: HttpError: DnsResolve
+info: app: lifecycle: will_do_clean_exit delta=353663.5907040001ms
+debug: rbx.AppBridgeV2: nativeAppBridgeV2LeaveGame:
+info: Roblox: 2026-03-18T14:45:17.728Z,364.728546,c033d6c0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:LuaApp) blocking=1.
+info: Roblox: 2026-03-18T14:45:17.728Z,364.728577,c033d6c0,6 [FLog::SingleSurfaceApp] leaveUGCGame: ... no-op, not in-game
+debug: rbx.AppBridgeV2: nativeAppBridgeV2DestroyApp:
+info: Roblox: 2026-03-18T14:45:17.728Z,364.728851,c033d6c0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:LuaApp) blocking:true.
+info: Roblox: 2026-03-18T14:45:17.728Z,364.728882,c033d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::pause destroyView:true.
+info: Roblox: 2026-03-18T14:45:17.728Z,364.728912,c033d6c0,6 [FLog::SurfaceController] drainRenderingJobs
+info: Roblox: 2026-03-18T14:45:17.729Z,364.729279,c033d6c0,6,Warning [FLog::Graphics] RenderView destroyed[1]
+info: Roblox: 2026-03-18T14:45:17.731Z,364.731659,c033d6c0,6 [FLog::Graphics] Vulkan: Saved pipeline cache (84872 bytes, hash 67d06034)
+info: Roblox: 2026-03-18T14:45:17.734Z,364.734985,c033d6c0,6 [FLog::SurfaceController] stop
+info: Roblox: 2026-03-18T14:45:17.735Z,364.735016,c033d6c0,6 [FLog::SurfaceController] drainRenderingJobs
+info: Roblox: 2026-03-18T14:45:17.735Z,364.735046,c033d6c0,6,Warning [FLog::UgcExperienceController] UgcExperienceController: finalize: Did not finalize due to state.
+info: Roblox: 2026-03-18T14:45:17.735Z,364.735260,e76b06c0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+info: Roblox: 2026-03-18T14:45:17.821Z,364.821808,c033d6c0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:LuaApp)... finished destroying luaApp.
+info: Roblox: 2026-03-18T14:45:17.821Z,364.821869,c033d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+info: app: lifecycle: clean_exit_success delta=276.96011700015515ms
+<font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>$ flatpak run org.vinegarhq.Sober
+sober: /usr/lib/x86_64-linux-gnu/libcurl.so.4: no version information available (required by sober)
+/proc/self/exe: /usr/lib/x86_64-linux-gnu/libcurl.so.4: no version information available (required by /proc/self/exe)
+info: app: lifecycle: app_start delta=4.9999915063381195e-05ms
+info: app: lifecycle: logging_started delta=56.11638099979609ms
+info: app: app tag: s095-2028-x86_64-gnu
+info: app: cpu model: AMD Ryzen 5 8600G w/ Radeon 760M Graphics
+info: app: os release: 
+info: app: host os release: Ubuntu
+info: app: desktop: ubuntu:GNOME (on wayland)
+info: app: lifecycle: update_flags_from_remote_manifest delta=0.05893700011074543ms
+ERROR: download: couldn&apos;t download resource from: https://sober.vinegarhq.org/app (error=Could not resolve hostname)
+ERROR: download: couldn&apos;t download resource from: https://raw.githubusercontent.com/vinegarhq/sober/refs/heads/gh-pages/app (error=Could not resolve hostname)
+FATAL: Crash: Failed to fetch remote manifest required for operation. Check your internet connection.
+
+You may also be blocked by Cloudflare - If you&apos;re certain your connection is stable, ask for further support in the VinegarHQ Discord.
+FATAL: Crash: Previous error is fatal, trying to show GUI error dialog...
+info: UIServicesConduit: will execute ui service binary
+FATAL: Crash: Aborting...
+<font color="#26A269"><b>lifedestroyed@ubuntu</b></font>:<font color="#12488B"><b>~</b></font>$ flatpak run org.vinegarhq.Sober
+</pre>
